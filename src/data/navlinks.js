@@ -5,16 +5,21 @@ const navLinks = [
     },
     {
         id: 2,
-        link: "About"
+        link:"Certificate"
     },
     {
         id: 3,
-        link: "Projects"
+        link: "About"
     },
     {
         id: 4,
+        link: "Projects"
+    },
+    {
+        id: 5,
         link: "Skills"
     },
+    
     // {
     //     id: 5,
     //     href:"",

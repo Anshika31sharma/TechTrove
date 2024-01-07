@@ -10,8 +10,8 @@ const Footer = () => {
             <div className="section pb-5">
                 <div className="flex flex-wrap justify-between ">
                     <div className="w-full sm:w-3/5 lg:w-2/5 pr-2">
-                        <h3 className='text-white text-[1.75rem] font-bold pb-2'>Dhawal Vijayvargiya</h3>
-                        <p className='text-lg text-cyan-400 pb-5'>FullStack Developer</p>
+                        <h3 className='text-white text-[1.75rem] font-bold pb-2'>Anshika Sharma</h3>
+                        <p className='text-lg text-cyan-400 pb-5'>Web Developer</p>
                         <p>Thank you for visiting my Personal Portfolio.</p>
                         <p>Lets connect over socials.</p>
                         <p>Open to any Feedback</p>
@@ -38,8 +38,8 @@ const Footer = () => {
                         <div className="flex flex-col sm:flex-row lg:flex-col  gap-5 xs:gap-10 sm:gap-5 md:gap-10 justify-between">
                             <div className='text-[0.9rem] font-advanced'>
                                 <p className='flex items-center gap-3 mb-1'>
-                                    <GMail /> vijaydhawal9001@gmail.com</p>
-                                <p className='flex items-center gap-3 '> <Map /><span className="pt-1">Udaipur, Rajasthan, India</span></p>
+                                    <GMail /> sharma.anshika7251@gmail.com</p>
+                                <p className='flex items-center gap-3 '> <Map /><span className="pt-1">Ramnagar (Nainital),Uttrakhand India</span></p>
                             </div>
                             <ul className="flex items-center  gap-5 md:gap-8 lg:gap-4 justify-start ">
                                 {contactInfo.map(({ id, link, name, icon, download }) => {
