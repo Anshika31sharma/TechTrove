@@ -17,9 +17,8 @@ const About = () => {
                     <h3 className='text-2xl xs:text-3xl  sm:text-4xl md:text-5xl lg:text-6xl font-semibold '>Hi, I'm <span className='text-cyan-500 block xs:inline'>Anshika Sharma</span></h3>
                     <div className='text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify'>
                         <p className='leading-tight'>
-                            An aspiring MERN Stack Web Developer based in India. I mostly works on Frontend using React and Tailwind CSS.
+                            An aspiring MERN Stack Web Developer based in India. I mostly works on Frontend using React Js and Tailwind CSS.
                         </p>
-                        <p className='leading-tight'> I also love to make beautiful Web Applications with technologies like MERN Stack.</p>
                         <p className='leading-tight'>
                             Coding Enthusuast, quick learner and Passionate Web Developer recently completed her Graduation as well as Master's from Nainital (Uttrakhand).
                         </p>
