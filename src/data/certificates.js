@@ -3,17 +3,7 @@ import Roorkee from "../assets/Projects/Ropar.jpeg"
 import Ropar from "../assets/Projects/Roorkee.jpeg"
 
 const projects = [
-  {
-    title: "RESEARCH INTERN",
-    subtitle: "IIT Roorkee",
-    img: Roorkee,
-    code: "https://drive.google.com/file/d/181bpLkujXXUco5jvr3qRUePFulCP7gm6/view?usp=sharing",
-    style: {
-      shadow: "shadow-[#FB923C]",
-      cover: "from-[#FB923C]",
-      display: "hidden",
-    },
-  },
+ 
   {
     title: "FRONT END INTERN",
     subtitle: "Ocpl Tech",
@@ -22,6 +12,17 @@ const projects = [
     style: {
       shadow: "shadow-[#F8FAFC]",
       cover: "from-[#F8FAFC]",
+      display: "hidden",
+    },
+  },
+  {
+    title: "RESEARCH INTERN",
+    subtitle: "IIT Roorkee",
+    img: Roorkee,
+    code: "https://drive.google.com/file/d/181bpLkujXXUco5jvr3qRUePFulCP7gm6/view?usp=sharing",
+    style: {
+      shadow: "shadow-[#FB923C]",
+      cover: "from-[#FB923C]",
       display: "hidden",
     },
   },
