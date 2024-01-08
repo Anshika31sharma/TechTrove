@@ -2,21 +2,22 @@ import React from 'react'
 import Card from './Card';
 import { Code,Link } from './Icons';
 import CardCover from './CardCover';
-const Project = ({ project: { img, demo, code, description, style = { shadow: "shadow-gray-500", cover: "from-gray-500" } } }) => {
-    return (
-        <Card style={style} >
-
-            <div className="group relative rounded-md cursor-pointer">
-                <img src={img} alt="Projec-Image" width="auto" height="auto" loading='lazy' title="Project" className='rounded-t-md ' />
-                <CardCover text={description} style={style} />
-            </div>
-            <div className='flex justify-center items-center rounded-b-md'>
-                <ProjectsLink name="Code" style={"rounded-bl-md " + style.cover} link={code} />
-                <ProjectsLink name="Demo" style={"rounded-br-md " + style.cover} link={demo} />
-            </div>
-        </Card>
-    )
-}
+    const Project = ({ project: { img, demo, code, description, style = { shadow: "shadow-gray-500", cover: "from-gray-500" } } }) => {
+        const cardHeight = "100px";
+    
+        return (
+            <Card style={{ ...style, height: cardHeight }}>
+                <div className="group relative rounded-md cursor-pointer">
+                    <img src={img} alt="Project-Image" width="100%" height="10%" loading='lazy' title="Project" className='rounded-t-md h-44' />
+                    <CardCover text={description} style={style} />
+                </div>
+                <div className='flex justify-center items-center rounded-b-md'>
+                    <ProjectsLink name="Code" style={"rounded-bl-md " + style.cover} link={code} />
+                    <ProjectsLink name="Demo" style={"rounded-br-md " + style.cover} link={demo} />
+                </div>
+            </Card>
+        );
+    };
 
 export default Project;
 

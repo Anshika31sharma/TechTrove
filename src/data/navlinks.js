@@ -3,13 +3,14 @@ const navLinks = [
         id: 1,
         link: "Home"
     },
+   
     {
         id: 2,
-        link:"Certificate"
+        link: "About"
     },
     {
         id: 3,
-        link: "About"
+        link:"Certificate"
     },
     {
         id: 4,
@@ -19,12 +20,6 @@ const navLinks = [
         id: 5,
         link: "Skills"
     },
-    
-    // {
-    //     id: 5,
-    //     href:"",
-    //     link: "Blog"
-    // },
     {
         id: 6,
         link: "Contact"

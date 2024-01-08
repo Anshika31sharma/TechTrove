@@ -1,5 +1,5 @@
 
-import ReactJs, { Bootstrap,CPlusPlus, CSS, ExpressJS, GitHub, HTML, JQuery, JS, MySQL,  NodeJS, PostMan, TailwindCSS, VSCode } from "../components/SkilIcons";
+import ReactJs, { Bootstrap,CPlusPlus, CSS, ExpressJS, GitHub,MongoDB, HTML, JQuery, JS, MySQL,  NodeJS, PostMan, TailwindCSS, VSCode } from "../components/SkilIcons";
 
 
 const skills = [
@@ -25,8 +25,18 @@ const skills = [
     },
     {
         id: 3,
+        icon: <MongoDB />,
+        name: "MongoDB",
+        style: {
+            shadow: "shadow-[#83CD27]",
+            cover: "from-black to-[#83CD27] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
+    {
+        id: 4,
         icon: <JS />,
-        name: "JS",
+        name: "Javascript",
         style: {
             shadow: "shadow-[#ffda53]",
             cover: "from-black to-[#ffda53] rounded-b-md",

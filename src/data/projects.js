@@ -45,7 +45,7 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
-    
+  
     {
         img: Season,
         name: "Cycle of Season",
@@ -55,43 +55,6 @@ const projects = [
         style: {
             shadow: "shadow-[#FB923C]",
             cover: "from-[#FB923C]",
-            display: " hidden group-hover:flex"
-        }
-    },
-    {
-        img: Weather,
-        name: "Weather App",
-        demo: "https://weather-app-one-delta-74.vercel.app/",
-        code: "https://github.com/Anshika31sharma/Weather-App",
-        description: "Different place's weather with humidity and wind showing website built with React Js and CSS",
-        style: {
-            shadow: "shadow-[#23CEEE]",
-            cover: "from-[#23CEEE]",
-            display: " hidden group-hover:flex"
-        }
-    },
-   
-    {
-        img: QuizApp,
-        name: "Quiz Website",
-        demo: "https://quiz-app-delta-wheat.vercel.app/",
-        code: "https://github.com/Anshika31sharma/Quiz-app",
-        description: "Web application provides facility to Play online quiz and practice Grammar, Aptitude, and G.K., created using React Js and CSS.",
-        style: {
-            shadow: "shadow-[#FFD43B]",
-            cover: "from-[#FFD43B]",
-            display: " hidden group-hover:flex"
-        }
-    },
-    {
-        img: SpotifyClone,
-        name: "Simon Game",
-        demo: "https://spotify31clone.netlify.app",
-        code: "https://github.com/Anshika31sharma/Spotify-Clone",
-        description: "A Spotify clone is a platform that allows users to stream music, create playlists, and follow other users, created using HTML and CSS.",
-        style: {
-            shadow: "shadow-[#011F3F]",
-            cover: "from-[#011F3F]",
             display: " hidden group-hover:flex"
         }
     },
@@ -107,7 +70,32 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
+    
+    {
+        img: QuizApp,
+        name: "Quiz Website",
+        demo: "https://quiz-app-delta-wheat.vercel.app/",
+        code: "https://github.com/Anshika31sharma/Quiz-app",
+        description: "Web application provides facility to Play online quiz and practice Grammar, Aptitude, and G.K., created using React Js and CSS.",
+        style: {
+            shadow: "shadow-[#FFD43B]",
+            cover: "from-[#FFD43B]",
+            display: " hidden group-hover:flex"
+        }
+    },
    
+    {
+        img: Weather,
+        name: "Weather App",
+        demo: "https://weather-app-one-delta-74.vercel.app/",
+        code: "https://github.com/Anshika31sharma/Weather-App",
+        description: "Different place's weather with humidity and wind showing website built with React Js and CSS",
+        style: {
+            shadow: "shadow-[#23CEEE]",
+            cover: "from-[#23CEEE]",
+            display: " hidden group-hover:flex"
+        }
+    },
     {
         img: ECOMMERCE_DASHBOARD,
         name: "Ecommerce_Dashboard",
@@ -120,5 +108,18 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
+    {
+        img: SpotifyClone,
+        name: "Simon Game",
+        demo: "https://spotify31clone.netlify.app",
+        code: "https://github.com/Anshika31sharma/Spotify-Clone",
+        description: "A Spotify clone is a platform that allows users to stream music, create playlists, and follow other users, created using HTML and CSS.",
+        style: {
+            shadow: "shadow-[#011F3F]",
+            cover: "from-[#011F3F]",
+            display: " hidden group-hover:flex"
+        }
+    },
+      
 ]
 export default projects;
