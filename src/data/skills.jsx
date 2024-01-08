@@ -23,16 +23,7 @@ const skills = [
             opacity: "opacity-80"
         }
     },
-    {
-        id: 3,
-        icon: <MongoDB />,
-        name: "MongoDB",
-        style: {
-            shadow: "shadow-[#83CD27]",
-            cover: "from-black to-[#83CD27] rounded-b-md",
-            opacity: "opacity-80"
-        }
-    },
+   
     {
         id: 4,
         icon: <JS />,
@@ -40,6 +31,27 @@ const skills = [
         style: {
             shadow: "shadow-[#ffda53]",
             cover: "from-black to-[#ffda53] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
+    {
+        id: 7,
+        icon: <ReactJs />,
+        name: "React",
+        style: {
+            shadow: "shadow-[#61DAFB]",
+            cover: "from-black to-[#61DAFB] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
+    {
+        id: 8,
+
+        icon: <NodeJS />,
+        name: "Node Js",
+        style: {
+            shadow: "shadow-[#83CD27]",
+            cover: "from-black to-[#83CD27] rounded-b-md",
             opacity: "opacity-80"
         }
     },
@@ -54,29 +66,18 @@ const skills = [
             opacity: "opacity-80"
         }
     },
-
     {
-        id: 7,
-        icon: <ReactJs />,
-        name: "React",
-        style: {
-            shadow: "shadow-[#61DAFB]",
-            cover: "from-black to-[#61DAFB] rounded-b-md",
-            opacity: "opacity-80"
-        }
-    },
-
-    {
-        id: 8,
-
-        icon: <NodeJS />,
-        name: "Node Js",
+        id: 3,
+        icon: <MongoDB />,
+        name: "MongoDB",
         style: {
             shadow: "shadow-[#83CD27]",
             cover: "from-black to-[#83CD27] rounded-b-md",
             opacity: "opacity-80"
         }
     },
+  
+
    
     {
         id: 10,
