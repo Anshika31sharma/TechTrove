@@ -78,16 +78,7 @@ function Telegram() {
         </svg>
     )
 }
-function Linktree() {
-    return (
-        <>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="#39E09B">
-                <path
-                    d="M20 2.01c-.5 0-.91.41-.91.91s.41.91.91.91h2.07c.61 0 1.11.5 1.11 1.11v16.97c0 .61-.5 1.11-1.11 1.11H2.05C1.44 22 .94 21.5.94 20.89V3.92c0-.61.5-1.11 1.11-1.11H4c.5 0 .91-.41.91-.91S4.5 1.01 4 1.01H1.93C.82 1.01 0 1.83 0 2.94v18.12C0 22.17.82 23 1.93 23H22.07c1.11 0 1.93-.83 1.93-1.94V4.94c0-1.11-.82-1.93-1.93-1.93H20zM8.5 6.42c-.86 0-1.56.7-1.56 1.56s.7 1.56 1.56 1.56 1.56-.7 1.56-1.56-.7-1.56-1.56-1.56zm7.78 9.83c0-.44-.36-.8-.8-.8s-.8.36-.8.8.36.8.8.8.8-.36.8-.8zm1.56-4.69c-1.17 0-2.13.96-2.13 2.13s.96 2.13 2.13 2.13 2.13-.96 2.13-2.13-.96-2.13-2.13-2.13zM12 9.7c-2.94 0-5.33 2.39-5.33 5.33S9.06 20.37 12 20.37s5.33-2.39 5.33-5.33-2.39-5.34-5.33-5.34zm.84 8.17c-.37.14-.78.2-1.19.20-2.48 0-4.49-2-4.49-4.48s2-4.48 4.49-4.48c1.39 0 2.66.51 3.60 1.36.26.28.28.72.03 1.03s-.72.28-1.03.03c-1.08-1.15-2.52-1.79-4-1.79-2.75 0-5 2.25-5 5s2.25 5 5 5c2.32 0 4.44-1.28 5.54-3.33.20-.38.73-.54 1.13-.34.39.20.54.73.34 1.13-1.23 2.35-3.31 3.54-5.52 3.54z"/>
-            </svg>
-        </>
-    );
-}
+
 
 function Discord() {
     return (
@@ -272,4 +263,4 @@ function Cancel({ color }) {
 
 
 export default LinkedIn;
-export { GMail, GitHub, Telegram, Person,Instagram,Linktree,Facebook, Discord, Twitter, Resume, Portfolio, Map, CopyRight, Code, Link, Chat, Submit, ArrowRightLong, ArrowDown, ArrowUp, Download, Hamburger, Menu, Cancel };
+export { GMail, GitHub, Telegram, Person,Instagram,Facebook, Discord, Twitter, Resume, Portfolio, Map, CopyRight, Code, Link, Chat, Submit, ArrowRightLong, ArrowDown, ArrowUp, Download, Hamburger, Menu, Cancel };

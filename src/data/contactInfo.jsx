@@ -1,4 +1,4 @@
-import LinkedIn, { GitHub, GMail, Telegram, Resume, Instagram, Facebook, Linktree } from "../components/Icons";
+import LinkedIn, { GitHub, GMail, Telegram, Resume, Instagram, Facebook } from "../components/Icons";
 import ResumeLink from "../assets/resume.pdf"
 const contactInfo = [
     {
@@ -38,12 +38,7 @@ const contactInfo = [
         link: "https://t.me/Silent_eyes_31_10",
         icon: <Telegram />,
     },
-    {
-        id: 7,
-        name: "Linktree",
-        link: "https://linktr.ee/ans31",
-        icon: <Linktree />,
-    },
+    
     {
         id: 8,
         name: "Resume",

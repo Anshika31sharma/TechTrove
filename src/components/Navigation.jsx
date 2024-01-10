@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import navLinks from '../data/navlinks';
-
 const Navigation = ({ ulClass, liClass, handleClick }) => {
     return (
         <ul className={ulClass}>
