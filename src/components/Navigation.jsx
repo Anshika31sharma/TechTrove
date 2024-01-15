@@ -10,14 +10,15 @@ const Navigation = ({ ulClass, liClass, handleClick }) => {
                         key={id}
                         className={`mx-4 py-2 capitalize font-medium  cursor-pointer text-gray-500 hover:scale-[1.15] border-b-2 border-transparent hover:border-b-gray-300 duration-500 hover:text-gray-300 ${liClass}`}
                     >
-                        {id === 2? (
+                        {id === 1? (
                             <a href={`#${link}`} target="_blank" rel='noferrer'>
                                 {link}
                             </a>
                         ) : (
                             <Link onClick={handleClick} to={link} smooth duration={500}>
-                                {link}
-                            </Link>
+                            {link}
+                        </Link>
+                        
                         )}
                     </li>
                 );
@@ -25,5 +26,4 @@ const Navigation = ({ ulClass, liClass, handleClick }) => {
         </ul>
     );
 };
-
 export default Navigation;

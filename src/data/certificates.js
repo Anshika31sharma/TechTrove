@@ -2,7 +2,7 @@ import OCPL from "../assets/Projects/ocpl.jpeg"
 import Roorkee from "../assets/Projects/Ropar.jpeg"
 import Ropar from "../assets/Projects/Roorkee.jpeg"
 
-const projects = [
+const certificates = [
  
   {
     title: "FRONT END INTERN",
@@ -41,4 +41,4 @@ const projects = [
  
 ];
 
-export default projects;
+export default certificates;

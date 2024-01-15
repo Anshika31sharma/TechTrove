@@ -10,7 +10,7 @@ const navLinks = [
     },
     {
         id: 3,
-        link:"Certificate"
+        link:"Certificates"
     },
     {
         id: 4,
