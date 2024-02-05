@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import HamBurgerMenu from './HamBurgerMenu';
 
 
 const Navbar = () => {
@@ -17,9 +16,6 @@ const Navbar = () => {
                             <span className='text-transparent'>Sharma</span>
                         </p>
                     </div>
-
-                   
-                    <HamBurgerMenu handleClick={handleClick} navOpen={navOpen} />
                 </div>
             </div>
             <div className="md:hidden h-32 w-full bg-black "></div>
