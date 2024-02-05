@@ -1,7 +1,6 @@
 import React from 'react'
 import { GMail, Map, CopyRight, ArrowRightLong } from './Icons'
 import { Link } from 'react-scroll'
-import navLinks from '../data/navlinks'
 import contactInfo from '../data/contactInfo'
 const Footer = () => {
     const year = new Date().getFullYear().toString()
@@ -16,23 +15,7 @@ const Footer = () => {
                         <p>Lets connect over socials.</p>
                         <p>Open to any Feedback</p>
                     </div>
-                    <div className="w-full xs:w-2/5 mt-8 sm:w-2/5 sm:mt-0 lg:w-[30%] sm:pl-20 lg:pl-12 justify-start">
-                        <h3 className='text-white text-[1.35rem] xs:text-2xl font-bold pb-4'>Quick Links</h3>
-                        {navLinks.map(({ link, id }) => {
-                            return (
-                                <div key={id} className="group w-fit px-3">
-                                    <Link to={link} smooth duration={500}>
-                                        <div className="flex items-center justify-between w-fit gap-2 font-semibold text-white cursor-pointer">
-                                            <ArrowRightLong />
-                                            <span className='bg-clip-text bg-gradient-to-r from-cyan-500 via-cyan-500 to-blue-500 group-hover:text-transparent duration-500 group-hover:animate-pulse '>
-                                                {link}
-                                            </span>
-                                        </div>
-                                    </Link>
-                                </div>
-                            )
-                        })}
-                    </div>
+                  
                     <div className="w-full mt-8 xs:w-3/5 sm:w-full lg:mt-0 lg:w-[30%] lg:pl-0">
                         <h3 className='text-white text-2xl font-bold pb-4'>Contact info</h3>
                         <div className="flex flex-col sm:flex-row lg:flex-col  gap-5 xs:gap-10 sm:gap-5 md:gap-10 justify-between">

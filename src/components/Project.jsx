@@ -8,7 +8,7 @@ import CardCover from './CardCover';
         return (
             <Card style={{ ...style, height: cardHeight }}>
                 <div className="group relative rounded-md cursor-pointer">
-                    <img src={img} alt="Project-Image" width="100%" height="10%" loading='lazy' title="Project" className='rounded-t-md h-44' />
+                    <img src={img} alt="Project-Image" width="100%"  loading='lazy' title="Project" className='rounded-t-md h-56 w-96' />
                     <CardCover text={description} style={style} />
                 </div>
                 <div className='flex justify-center items-center rounded-b-md'>
