@@ -1,7 +1,7 @@
 import Bank from "../assets/Projects/bank.png"
-import Season from "../assets/Projects/Season.png"
+import Jewellery from "../assets/Projects/jewellery.png"
 import FoodWeb from "../assets/Projects/FoodWeb.png"
-import Login from "../assets/Projects/login.png"
+import Kanban from "../assets/Projects/kanban.png"
 import QuizApp from "../assets/Projects/QuizApp.png"
 import Yoga_Web from "../assets/Projects/yoga.png"
 import Dashboard from "../assets/Projects/Dashboard.png"
@@ -9,6 +9,18 @@ import Weather from "../assets/Projects/Weather.png"
 import CRUD_APP from "../assets/Projects/ToDoList.png"
 
 const projects = [
+    {
+        img: Jewellery,
+        name: "Jewellery Catalog",
+        demo: "https://gemstone-gallery.vercel.app/",
+        code: "https://github.com/Anshika31sharma/GemstoneGallery",
+        description: "Different Jewellery showing website built with React Js and Tailwind",
+        style: {
+            shadow: "shadow-[#FB923C]",
+            cover: "from-[#FB923C]",
+            display: " hidden group-hover:flex"
+        }
+    },
     {
         img: Bank,
         name: "Bank Website",
@@ -59,6 +71,18 @@ const projects = [
         }
     },
     {
+        img: Kanban,
+        name: "Kanban Board",
+        demo: "https://lean-board.vercel.app/",
+        code: "https://github.com/Anshika31sharma/LeanBoard",
+        description: "Frontend Design of a Kanban Board  created using React and Tailwind.",
+        style: {
+            shadow: "shadow-[#CEC3FB]",
+            cover: "from-[#CEC3FB]",
+            display: " hidden group-hover:flex"
+        }
+    },
+    {
         img: Weather,
         name: "Weather App",
         demo: "https://weather-forecast-dashboard-six.vercel.app/",
@@ -96,31 +120,9 @@ const projects = [
             display: " hidden group-hover:flex"
         }
     },
-    {
-        img: Login,
-        name: "Login|Reimburesemnt Page",
-        demo: "https://jazzy-toffee-b68f4c.netlify.app",
-        code: "https://github.com/Anshika31sharma/LogInPayBack",
-        description: "Frontend Design of a Login and Reimbursement page  created using React and Bootstrap.",
-        style: {
-            shadow: "shadow-[#CEC3FB]",
-            cover: "from-[#CEC3FB]",
-            display: " hidden group-hover:flex"
-        }
-    },
+   
   
-    {
-        img: Season,
-        name: "Cycle of Season",
-        demo: "https://peaceful-nougat-b7e74b.netlify.app",
-        code: "https://github.com/Anshika31sharma/CycleofSeasons",
-        description: "Different Season's showing website built with HTML, CSS and Javascript",
-        style: {
-            shadow: "shadow-[#FB923C]",
-            cover: "from-[#FB923C]",
-            display: " hidden group-hover:flex"
-        }
-    },
+  
  
    
       
