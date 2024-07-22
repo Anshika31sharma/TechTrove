@@ -1,5 +1,5 @@
 
-import ReactJs, { Bootstrap,CPlusPlus, CSS, ExpressJS, GitHub,MongoDB, HTML, JQuery, JS, MySQL,  NodeJS, PostMan, TailwindCSS, VSCode } from "../components/SkilIcons";
+import ReactJs, { Bootstrap,CPlusPlus, CSS, ExpressJS, GitHub,MongoDB, HTML, JQuery, JS, MySQL,  NodeJS, PostMan, TailwindCSS, VSCode, NextJs, C } from "../components/SkilIcons";
 
 
 const skills = [
@@ -35,6 +35,15 @@ const skills = [
         }
     },
     {
+        id:24,
+        icon: <C/>,
+        name: "Carbon Design System",
+        style: {
+            shadow: "shadow-[#5c5a5a]",
+            opacity: "opacity-80"
+        }
+    },
+    {
         id: 7,
         icon: <ReactJs />,
         name: "React",
@@ -55,6 +64,7 @@ const skills = [
             opacity: "opacity-80"
         }
     },
+
    
     {
         id: 6,
@@ -66,6 +76,7 @@ const skills = [
             opacity: "opacity-80"
         }
     },
+
     {
         id: 3,
         icon: <MongoDB />,
@@ -77,7 +88,17 @@ const skills = [
         }
     },
   
+    {
+        id: 26,
+        icon: <VSCode />,
+        name: "VS Code",
+        style: {
+            shadow: "shadow-[#1D95E5]",
+            cover: "from-black to-[#1D95E5] rounded-b-md",
+            opacity: "opacity-80"
 
+        }
+    },
    
     {
         id: 10,
@@ -141,6 +162,17 @@ const skills = [
             cover: "from-black to-[#1D95E5] rounded-b-md",
             opacity: "opacity-80"
 
+        }
+    },
+    
+    {
+        id: 9,
+
+        icon: <NextJs />,
+        name: "Next UI",
+        style: {
+            shadow: "shadow-[#5c5a5a]",
+            opacity: "opacity-80"
         }
     },
     {

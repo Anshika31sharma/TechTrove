@@ -1,7 +1,7 @@
 import React from "react";
 import { Download } from "./Icons";
 import resume from "../assets/resume.pdf";
-import profile from "../assets/profile.jpg";
+import profile from "../assets/Favicons/profile.jpg";
 import SectionHeading from "./SectionHeading";
 import techStack from "../data/techStack";
 
@@ -33,12 +33,14 @@ const About = () => {
           </h3>
           <div className="text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify">
             <p className="leading-tight">
-              An aspiring MERN Stack Web Developer based in India. Primarily, I
-              work on Frontend using React Js and Tailwind CSS.
+              I am a Software Engineer based in India specializing in frontend
+              development with expertise in React.js and Tailwind CSS to create
+              intuitive and high-performance web applications
             </p>
             <p className="leading-tight">
-              Coding Enthusuast, quick learner and Passionate Web Developer. I
-              recently completed my B.Sc and M.Sc. from Nainital (Uttrakhand).
+              "Coding enthusiast and passionate web developer with a B.Sc and
+              M.Sc from Nainital, Uttarakhand. Quick learner committed to
+              exploring the latest in web development.
             </p>
           </div>
           <div className="py-3 text-gray-50 sm:flex font-semibold">

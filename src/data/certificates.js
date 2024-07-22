@@ -1,9 +1,19 @@
-import OCPL from "../assets/Projects/ocpl.jpeg"
-import Roorkee from "../assets/Projects/Ropar.jpeg"
-import Ropar from "../assets/Projects/Roorkee.jpeg"
-
+import OCPL from "../assets/Projects/ocpl.jpeg";
+import Roorkee from "../assets/Projects/Ropar.jpeg";
+import Ropar from "../assets/Projects/Roorkee.jpeg";
+import NF from "../assets/Favicons/NF.jpg";
 const certificates = [
- 
+  {
+    title: "Front End INTERN",
+    subtitle: "Nutri Fusion",
+    img: NF,
+    code: "https://drive.google.com/file/d/181bpLkujXXUco5jvr3qRUePFulCP7gm6/view?usp=sharing",
+    style: {
+      shadow: "shadow-[#FB923C]",
+      cover: "from-[#FB923C]",
+      display: "hidden",
+    },
+  },
   {
     title: "FRONT END INTERN",
     subtitle: "Ocpl Tech",
@@ -36,9 +46,5 @@ const certificates = [
       cover: "from-[#763145]",
       display: "hidden",
     },
-  },
-  
- 
-];
-
+  }];
 export default certificates;
