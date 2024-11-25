@@ -1,5 +1,5 @@
 
-import ReactJs, { Bootstrap,CPlusPlus, CSS, ExpressJS, GitHub,MongoDB, HTML, JQuery, JS, MySQL,  NodeJS, PostMan, TailwindCSS, VSCode, NextJs, C } from "../components/SkilIcons";
+import ReactJs, { Bootstrap,CPlusPlus, CSS, ExpressJS,Jest,TypeScript,VUE,NextJs, GitHub,MongoDB, HTML, JQuery, JS, MySQL,  NodeJS, PostMan, TailwindCSS, VSCode, NextUI, C, PostGreSql } from "../components/SkilIcons";
 
 
 const skills = [
@@ -35,15 +35,6 @@ const skills = [
         }
     },
     {
-        id:24,
-        icon: <C/>,
-        name: "Carbon Design System",
-        style: {
-            shadow: "shadow-[#5c5a5a]",
-            opacity: "opacity-80"
-        }
-    },
-    {
         id: 7,
         icon: <ReactJs />,
         name: "React",
@@ -51,6 +42,28 @@ const skills = [
             shadow: "shadow-[#61DAFB]",
             cover: "from-black to-[#61DAFB] rounded-b-md",
             opacity: "opacity-80"
+        }
+    },
+   
+    {
+        id: 32,
+        icon: <NextJs />,
+        name: "Next Js",
+        style: {
+            shadow: "shadow-[#444444]",
+            cover: "from-black to-[#444444] rounded-b-md",
+            opacity: "opacity-80"
+        }
+    },
+    {
+        id: 31,
+        icon: <TypeScript />,
+        name: "TypeScript",
+        style: {
+            shadow: "shadow-[#1266A9]",
+            cover: "from-black to-[#1266A9] rounded-b-md",
+            opacity: "opacity-80"
+
         }
     },
     {
@@ -105,7 +118,7 @@ const skills = [
         icon: <TailwindCSS />,
         name: "Tailwind",
         style: {
-            shadow: "shadow-[#3D8FC6]",
+            shadow: "shadow-[#5BB7D5]",
             cover: "from-black to-[#3D8FC6] rounded-b-md",
             opacity: "opacity-80"
         }
@@ -153,22 +166,11 @@ const skills = [
             opacity: "opacity-80"
         }
     },
-    {
-        id: 25,
-        icon: <VSCode />,
-        name: "VS Code",
-        style: {
-            shadow: "shadow-[#1D95E5]",
-            cover: "from-black to-[#1D95E5] rounded-b-md",
-            opacity: "opacity-80"
-
-        }
-    },
     
     {
         id: 9,
 
-        icon: <NextJs />,
+        icon: <NextUI />,
         name: "Next UI",
         style: {
             shadow: "shadow-[#5c5a5a]",
@@ -197,6 +199,50 @@ const skills = [
 
         }
     },
+    
+    {
+        id: 30,
+        icon: <Jest />,
+        name: "Jest",
+        style: {
+            shadow: "shadow-[#9A435C]",
+            cover: "from-black to-[#1266A9] rounded-b-md",
+            opacity: "opacity-80"
+
+        }
+    },
+    {
+        id:24,
+        icon: <C/>,
+        name: "Carbon Design System",
+        style: {
+            shadow: "shadow-[#1266A9]",
+            opacity: "opacity-80"
+        }
+    },
+    {
+        id: 30,
+        icon: <VUE />,
+        name: "Vue Js",
+        style: {
+            shadow: "shadow-[#81C784]",
+            cover: "from-black to-[#1266A9] rounded-b-md",
+            opacity: "opacity-80"
+
+        }
+    },
+    {
+        id: 30,
+        icon: <PostGreSql />,
+        name: "PostGreSql",
+        style: {
+            shadow: "shadow-[#1266A9]",
+            cover: "from-black to-[#1266A9] rounded-b-md",
+            opacity: "opacity-80"
+
+        }
+    },
+  
 ]
 export default skills;
 

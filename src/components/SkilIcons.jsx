@@ -21,10 +21,10 @@ const JS = ({ width = 35, height = 45 }) => {
         </>
     )
 }
-const NextJs = ({ width = 35, height1 = 35, height2 = 20 }) => {
+const NextUI = ({ width = 35, height1 = 35, height2 = 20 }) => {
     return (
         <div >
- <img src={img} alt="Next.js Logo" width={width} height={height1} />
+ <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAOVBMVEVHcEwAAAAAAAAAAAAAAAAAAAAAAAC4uLipqanFxcWdnZ2Hh4fZ2dlqamr8/Pw+Pj7b29ve3t4sLCwyEyHtAAAAB3RSTlMAWbvv/xztEboseQAAAHBJREFUeAHdk8cBxDAIwAwovWf/Xa/3AwaI3K0fpVwRNb4wlXKnqnGoq5sj4GprAupShBApSogWI8QKCU/ZtPez62EYDyyb+zl6cprv57w4knUD9rnDkzTzhRZfwrLwTZ6yLNlpmWQFlpZmXtRpO5wBZKkNpFwx5QIAAAAASUVORK5CYII="alt="Next.js Logo" width={width} height={height1} />
         </div>
     )
 }
@@ -38,6 +38,30 @@ const HTML = ({ width = 35, height = 45 }) => {
                 <path fill="#FFFFFF" d="M54.13,63.63h16.7l-1.57,17.59L54.13,85.3v14.11l27.81-7.71l0.2-2.29l3.19-35.71l0.33-3.64H54.13V63.63 L54.13,63.63z M54.13,36.14v0.03h32.76l0.27-3.05l0.62-6.88l0.32-3.64H54.13V36.14L54.13,36.14L54.13,36.14z" />
             </svg>
         </>
+    )
+}
+const NextJs = ({ width = 35, height = 45 }) => {
+    return (
+        <>
+           <img src="https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg" className="h-10 w-10"/>        </>
+    )
+}
+const TypeScript = ({ width = 15, height = 25 }) => {
+    return (
+        <>
+           <img src="https://cdn-icons-png.freepik.com/256/5968/5968381.png?semt=ais_hybrid" className=" h-10 w-10"/>        </>
+    )
+}
+const VUE = ({ width = 35, height = 45 }) => {
+    return (
+        <>
+           <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" className="h-10 w-10"/>        </>
+    )
+}
+const Jest = ({ width = 35, height = 45 }) => {
+    return (
+        <>
+           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEVHcEzfxMz////////////s2+D////////8+fr//v7z5+v+/P3//f7//v///////////////////////v7///////////////+aQ1yYPliVOFSydIXUtLyjVmyraXvq2d7InanAkJ25g5KSLU3YYNw1AAAAGHRSTlMA/a7Ab+kbKPf89+PN1wsvm4gDTlQ3QF9D6eTdAAABW0lEQVQokY1S2Y6DMAzMVchFKdB2E+ck/P8/bhClB33YHUXKw8j2zNgI/Q9N+45m/CCZOr0gh/MHeZWz21ESO7SlBewGcPp2GHrxxhi7PpvJeCAnFawNOVpr8KErQqMuALPIxsau/TIz4CVgfYqQybfTG4dCbyQv8udD6fZ1Mx7Qz8nxN5PtQMmE0Jlx3vXorKW43F8ecPG6qSXzLK/ornDhl53rtQNzYohka7PgnAcoanpGM9sgpzWE4HHwIpqs+2db7lON5KYwTg5CEknQh0R0Jomrqq/tko/WQPTYq+uDvHKXaB1NU1jsGi8ske/5DTIk1bBOupVaAVGwXY+3QXTcx20plQOsH+G2OgPE5NZV1VUuy1LkXohamsHYdZoFE+YkBO+eATXEm01HcFgoemHv58P4DBWhYEGGan58v4KGSJ+zT5ywz5NbMVYbglM2NV/UJqrvm+NJ/YFfvNEd3X1AOooAAAAASUVORK5CYII=" className="h-10 w-10"/>        </>
     )
 }
 const CSS = ({ width = 35, height = 45 }) => {
@@ -99,7 +123,7 @@ const NodeJS = ({ width = 35, height = 45 }) => {
         </>
     )
 }
-const C = ({ width = 40, height = 40 }) => {
+const C = ({ width = 30, height = 30 }) => {
     return (
         <>
             <img src="data:image/jpeg;base64,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" alt="Next.js Logo" width={width} height={height} />
@@ -470,5 +494,5 @@ export {
     Bootstrap, SASS, MaterialUI,
     MySQL, FireBase, Redis, PostGreSql,
     VSCode, Git, GitHub, Bash, PostMan, Heroku,
-    Redux, JQuery, Kubernets, Doker, DotNet
+    Redux, JQuery, Kubernets, Doker, DotNet,NextUI,TypeScript,Jest,VUE
 };

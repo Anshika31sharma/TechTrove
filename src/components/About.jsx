@@ -34,8 +34,8 @@ const About = () => {
           <div className="text-gray-400 py-4 space-y-2 md:space-y-2 md:pt-8 lg:pt-12 font-semibold text-justify">
             <p className="leading-tight">
               I am a Software Engineer based in India specializing in frontend
-              development with expertise in React.js and Tailwind CSS to create
-              intuitive and high-performance web applications
+              development with expertise in React Js,Next Js and Tailwind CSS to create
+              intuitive and high-performance web applications.
             </p>
             <p className="leading-tight">
               "Coding enthusiast and passionate web developer with a B.Sc and
