@@ -289,6 +289,13 @@ const GitHub = ({ width = 35, height = 45 }) => {
         </>
     )
 }
+const Playwright = () => {
+    return (
+        <>
+            <img className=" h-12 w-12"  src="https://playwright.dev/img/playwright-logo.svg" />
+        </>
+    )
+}
 const MySQL = ({ width = 45, height = 45 }) => {
     return (
         <>
@@ -494,5 +501,5 @@ export {
     Bootstrap, SASS, MaterialUI,
     MySQL, FireBase, Redis, PostGreSql,
     VSCode, Git, GitHub, Bash, PostMan, Heroku,
-    Redux, JQuery, Kubernets, Doker, DotNet,NextUI,TypeScript,Jest,VUE
+    Redux, JQuery, Kubernets, Doker, DotNet,NextUI,TypeScript,Jest,VUE,Playwright
 };

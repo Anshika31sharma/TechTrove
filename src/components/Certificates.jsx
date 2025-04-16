@@ -12,7 +12,7 @@ const Certificates = () => {
       <div className="section">
         <SectionHeading heading="Skillset Spotlight" />
 
-        <GridLayout style="sm:grid-cols-2 md:max-w-2xl  mx-auto lg:max-w-none lg:grid-cols-4 ">
+        <GridLayout style="sm:grid-cols-2 md:max-w-2xl object-fit  mx-auto lg:max-w-5xl lg:grid-cols-3">
           {personalProjects.map((project) => {
             return <Project key={project.name} project={project} />;
           })}

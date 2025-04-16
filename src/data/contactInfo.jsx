@@ -1,5 +1,5 @@
 import LinkedIn, { GitHub, GMail, Telegram, Resume, Instagram, Facebook } from "../components/Icons";
-import ResumeLink from "../assets/resume.pdf"
+import ResumeLink from "../assets/Anshika_CV.pdf"
 const contactInfo = [
     {
         id: 1,

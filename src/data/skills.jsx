@@ -1,5 +1,5 @@
 
-import ReactJs, { Bootstrap,CPlusPlus, CSS, ExpressJS,Jest,TypeScript,VUE,NextJs, GitHub,MongoDB, HTML, JQuery, JS, MySQL,  NodeJS, PostMan, TailwindCSS, VSCode, NextUI, C, PostGreSql } from "../components/SkilIcons";
+import ReactJs, { Bootstrap,CPlusPlus, CSS, ExpressJS,Jest,TypeScript,VUE,NextJs, GitHub,MongoDB, HTML, JQuery, JS, MySQL,  NodeJS, PostMan, TailwindCSS, VSCode, NextUI, C, PostGreSql ,Playwright } from "../components/SkilIcons";
 
 
 const skills = [
@@ -242,7 +242,17 @@ const skills = [
 
         }
     },
-  
+    {
+        id: 31,
+        icon: <Playwright />,
+        name: "Playwright",
+        style: {
+            shadow: "shadow-[#1266A9]",
+            cover: "from-black to-[#1266A9] rounded-b-md",
+            opacity: "opacity-80"
+
+        }
+    },
 ]
 export default skills;
 

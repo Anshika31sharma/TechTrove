@@ -1,6 +1,6 @@
 import React from "react";
 import { Download } from "./Icons";
-import resume from "../assets/resume.pdf";
+import resume from "../assets/Anshika_CV.pdf";
 import profile from "../assets/Favicons/profile.jpg";
 import SectionHeading from "./SectionHeading";
 import techStack from "../data/techStack";

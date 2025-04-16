@@ -2,7 +2,20 @@ import OCPL from "../assets/Projects/ocpl.jpeg";
 import Roorkee from "../assets/Projects/Ropar.jpeg";
 import Ropar from "../assets/Projects/Roorkee.jpeg";
 import NF from "../assets/Favicons/NF.jpg";
+import Nano from "../assets/Favicons/nano.jpg"
 const certificates = [
+  
+  {
+    title: "Software Engineer",
+    subtitle: "Nanoheal",
+    img: Nano,
+    code: "https://drive.google.com/file/d/1wV5I7KYd-RSB9nY7nAlWtP7ucWByJcV-/view?usp=sharing",
+    style: {
+      shadow: "shadow-[#FB923C]",
+      cover: "from-[#FB923C]",
+      display: "hidden",
+    },
+  },
   {
     title: "Front End INTERN",
     subtitle: "Nutri Fusion",

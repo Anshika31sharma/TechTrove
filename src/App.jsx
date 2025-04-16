@@ -11,7 +11,7 @@ import Certificate from './components/Certificates';
 
 const App = () => {
   return (
-    <div>
+    <div className=' scroll-smooth'>
       <Navbar />
       <Home />
       <About />
