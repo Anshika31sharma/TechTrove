@@ -25,7 +25,7 @@ const skills = [
     },
    
     {
-        id: 4,
+        id: 3,
         icon: <JS />,
         name: "Javascript",
         style: {
@@ -35,7 +35,7 @@ const skills = [
         }
     },
     {
-        id: 7,
+        id: 4,
         icon: <ReactJs />,
         name: "React",
         style: {
@@ -46,7 +46,7 @@ const skills = [
     },
    
     {
-        id: 32,
+        id: 5,
         icon: <NextJs />,
         name: "Next Js",
         style: {
@@ -56,7 +56,7 @@ const skills = [
         }
     },
     {
-        id: 31,
+        id: 6,
         icon: <TypeScript />,
         name: "TypeScript",
         style: {
@@ -67,7 +67,7 @@ const skills = [
         }
     },
     {
-        id: 8,
+        id: 7,
 
         icon: <NodeJS />,
         name: "Node Js",
@@ -80,7 +80,7 @@ const skills = [
 
    
     {
-        id: 6,
+        id: 8,
         icon: <ExpressJS />,
         name: "Express Js",
         style: {
@@ -91,7 +91,7 @@ const skills = [
     },
 
     {
-        id: 3,
+        id: 9,
         icon: <MongoDB />,
         name: "MongoDB",
         style: {
@@ -102,7 +102,7 @@ const skills = [
     },
   
     {
-        id: 26,
+        id: 10,
         icon: <VSCode />,
         name: "VS Code",
         style: {
@@ -114,7 +114,7 @@ const skills = [
     },
    
     {
-        id: 10,
+        id: 11,
         icon: <TailwindCSS />,
         name: "Tailwind",
         style: {
@@ -124,7 +124,7 @@ const skills = [
         }
     },
     {
-        id: 11,
+        id: 12,
         icon: <Bootstrap />,
         name: "Bootstrap",
         style: {
@@ -135,7 +135,7 @@ const skills = [
     },
  
     {
-        id: 14,
+        id: 13,
         icon: <MySQL />,
         name: "MySQL",
         style: {
@@ -147,7 +147,7 @@ const skills = [
     },
  
     {
-        id: 17,
+        id: 14,
         icon: <GitHub />,
         name: "GitHub",
         style: {
@@ -157,7 +157,7 @@ const skills = [
         }
     },
     {
-        id: 19,
+        id: 15,
         icon: <CPlusPlus />,
         name: "C++",
         style: {
@@ -168,7 +168,7 @@ const skills = [
     },
     
     {
-        id: 9,
+        id: 16,
 
         icon: <NextUI />,
         name: "Next UI",
@@ -178,7 +178,7 @@ const skills = [
         }
     },
     {
-        id: 29,
+        id: 17,
         icon: <PostMan />,
         name: "PostMan",
         style: {
@@ -189,7 +189,7 @@ const skills = [
         }
     },
     {
-        id: 30,
+        id: 18,
         icon: <JQuery />,
         name: "JQuery",
         style: {
@@ -201,7 +201,7 @@ const skills = [
     },
     
     {
-        id: 30,
+        id: 19,
         icon: <Jest />,
         name: "Jest",
         style: {
@@ -212,7 +212,7 @@ const skills = [
         }
     },
     {
-        id:24,
+        id:20,
         icon: <C/>,
         name: "Carbon Design System",
         style: {
@@ -221,7 +221,7 @@ const skills = [
         }
     },
     {
-        id: 30,
+        id: 21,
         icon: <VUE />,
         name: "Vue Js",
         style: {
@@ -232,7 +232,7 @@ const skills = [
         }
     },
     {
-        id: 30,
+        id: 22,
         icon: <PostGreSql />,
         name: "PostGreSql",
         style: {
@@ -243,7 +243,7 @@ const skills = [
         }
     },
     {
-        id: 31,
+        id: 23,
         icon: <Playwright />,
         name: "Playwright",
         style: {
