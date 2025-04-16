@@ -3,7 +3,8 @@ Welcome to my portfolio repository! This project showcases my skills using React
 
 <p align="center">
   <br>
-  <img src="/src/assets/Favicons/img.png" alt="wb" width="400">
+ <img width="951" alt="image" src="https://github.com/user-attachments/assets/9e3814f7-5997-471e-b009-d5cb12572905" />
+
   <br>
 </p>
 <p align="center" >
