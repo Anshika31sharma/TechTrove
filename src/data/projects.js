@@ -2,10 +2,10 @@ import Bank from "../assets/Projects/bank.png";
 import Jewellery from "../assets/Projects/jewellery.png";
 import FoodWeb from "../assets/Projects/FoodWeb.png";
 import Kanban from "../assets/Projects/kanban.png";
-import QuizApp from "../assets/Projects/QuizApp.png";
+import Menu_Card from "../assets/Projects/food.png";
 import Yoga_Web from "../assets/Projects/yoga.png";
 import Dashboard from "../assets/Projects/Dashboard.png";
-import Weather from "../assets/Projects/Weather.png";
+import Movie_App from "../assets/Projects/movie.png";
 import CRUD_APP from "../assets/Projects/ToDoList.png";
 const projects = [
   {
@@ -18,6 +18,19 @@ const projects = [
     style: {
       shadow: "shadow-[#FB923C]",
       cover: "from-[#FB923C]",
+      display: " hidden group-hover:flex",
+    },
+  },
+   {
+    img: Menu_Card,
+    name: "Menu Card Gallery",
+    demo: "https://fastidious-puppy-97f091.netlify.app/",
+    code: "https://github.com/Anshika31sharma/MenuCardGallery",
+    description:
+      "A Menu Card Gallery is a collection of menu cards showcasing different food items, created using React Js and Tailwind.",
+    style: {
+      shadow: "shadow-[#23CEEE]",
+      cover: "from-[#23CEEE]",
       display: " hidden group-hover:flex",
     },
   },
@@ -49,19 +62,6 @@ const projects = [
     },
   },
   {
-    img: Dashboard,
-    name: "Simon Game",
-    demo: "https://live-report-builder.vercel.app/",
-    code: "https://github.com/Anshika31sharma/LiveReportBuilder",
-    description:
-      "All in One Dashboard for managing stockings, built with  ReactJs and Tailwind.",
-    style: {
-      shadow: "shadow-[#011F3F]",
-      cover: "from-[#011F3F]",
-      display: " hidden group-hover:flex",
-    },
-  },
-  {
     img: FoodWeb,
     name: "Food Website",
     demo: "https://jovial-croquembouche-6034f1.netlify.app",
@@ -87,16 +87,16 @@ const projects = [
       display: " hidden group-hover:flex",
     },
   },
-  {
-    img: Weather,
-    name: "Weather App",
-    demo: "https://weather-forecast-dashboard-six.vercel.app/",
-    code: "https://github.com/Anshika31sharma/WeatherForecastDashboard",
+   {
+    img: Dashboard,
+    name: "Simon Game",
+    demo: "https://live-report-builder.vercel.app/",
+    code: "https://github.com/Anshika31sharma/LiveReportBuilder",
     description:
-      "Different place's weather forecast dashboard with humidity and wind showing website built with React Js and Tailwind",
+      "All in One Dashboard for managing stockings, built with  ReactJs and Tailwind.",
     style: {
-      shadow: "shadow-[#23CEEE]",
-      cover: "from-[#23CEEE]",
+      shadow: "shadow-[#011F3F]",
+      cover: "from-[#011F3F]",
       display: " hidden group-hover:flex",
     },
   },
@@ -116,10 +116,10 @@ const projects = [
   },
 
   {
-    img: QuizApp,
-    name: "Quiz Website",
-    demo: "https://quiz-app-delta-wheat.vercel.app/",
-    code: "https://github.com/Anshika31sharma/Quiz-app",
+    img: Movie_App,
+    name: "Movie App",
+    demo: "https://movie-app-blue-nine.vercel.app/",
+    code: "https://github.com/Anshika31sharma/MovieApp",
     description:
       "Web application provides facility to Play online quiz and practice Grammar, Aptitude, and G.K., created using React Js and CSS.",
     style: {
