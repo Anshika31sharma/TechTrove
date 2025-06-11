@@ -6,7 +6,7 @@ import Menu_Card from "../assets/Projects/food.png";
 import Yoga_Web from "../assets/Projects/yoga.png";
 import Dashboard from "../assets/Projects/Dashboard.png";
 import Movie_App from "../assets/Projects/movie.png";
-import CRUD_APP from "../assets/Projects/ToDoList.png";
+import CRUD_APP from "../assets/Projects/Bags.png";
 const projects = [
   {
     img: Jewellery,
@@ -44,6 +44,19 @@ const projects = [
     style: {
       shadow: "shadow-[#F8FAFC]",
       cover: "from-[#F8FAFC]",
+      display: " hidden group-hover:flex",
+    },
+  },
+  {
+    img: CRUD_APP,
+    name: "Ecommerce Bags Website",
+    demo: "https://primebag.onrender.com/",
+    code: "https://github.com/Anshika31sharma/primebag-haven",
+    description:
+      "Ecommerce Bags Website is a platform for buying and selling bags, created using Ejs, Node Js, Express Js, and MongoDB.",
+    style: {
+      shadow: "shadow-[#A582E2]",
+      cover: "from-[#A582E2]",
       display: " hidden group-hover:flex",
     },
   },
@@ -101,19 +114,7 @@ const projects = [
     },
   },
 
-  {
-    img: CRUD_APP,
-    name: "CRUD APP",
-    demo: "https://luxury-stroopwafel-521280.netlify.app",
-    code: "https://github.com/Anshika31sharma/User-Management-App",
-    description:
-      " A CRUD app is a piece of software that's used to create, read, update & delete data here I have created using React Js and Bootstrap.",
-    style: {
-      shadow: "shadow-[#A582E2]",
-      cover: "from-[#A582E2]",
-      display: " hidden group-hover:flex",
-    },
-  },
+  
 
   {
     img: Movie_App,
