@@ -46,22 +46,22 @@ const NextJs = ({ width = 35, height = 45 }) => {
            <img src="https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg" className="h-10 w-10"/>        </>
     )
 }
-const TypeScript = ({ width = 15, height = 25 }) => {
+const TypeScript = ({ width = 15, height = 15 }) => {
     return (
         <>
-           <img src="https://cdn-icons-png.freepik.com/256/5968/5968381.png?semt=ais_hybrid" className=" h-10 w-10"/>        </>
+           <img src="https://cdn-icons-png.freepik.com/256/5968/5968381.png?semt=ais_hybrid" className=" h-8 w-8"/>        </>
     )
 }
 const VUE = ({ width = 35, height = 45 }) => {
     return (
         <>
-           <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" className="h-10 w-10"/>        </>
+           <img src="https://img.icons8.com/?size=100&id=rY6agKizO9eb&format=png&color=000000" className="h-8 w-8"/>        </>
     )
 }
 const Jest = ({ width = 35, height = 45 }) => {
     return (
         <>
-           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAbFBMVEVHcEzfxMz////////////s2+D////////8+fr//v7z5+v+/P3//f7//v///////////////////////v7///////////////+aQ1yYPliVOFSydIXUtLyjVmyraXvq2d7InanAkJ25g5KSLU3YYNw1AAAAGHRSTlMA/a7Ab+kbKPf89+PN1wsvm4gDTlQ3QF9D6eTdAAABW0lEQVQokY1S2Y6DMAzMVchFKdB2E+ck/P8/bhClB33YHUXKw8j2zNgI/Q9N+45m/CCZOr0gh/MHeZWz21ESO7SlBewGcPp2GHrxxhi7PpvJeCAnFawNOVpr8KErQqMuALPIxsau/TIz4CVgfYqQybfTG4dCbyQv8udD6fZ1Mx7Qz8nxN5PtQMmE0Jlx3vXorKW43F8ecPG6qSXzLK/ornDhl53rtQNzYohka7PgnAcoanpGM9sgpzWE4HHwIpqs+2db7lON5KYwTg5CEknQh0R0Jomrqq/tko/WQPTYq+uDvHKXaB1NU1jsGi8ske/5DTIk1bBOupVaAVGwXY+3QXTcx20plQOsH+G2OgPE5NZV1VUuy1LkXohamsHYdZoFE+YkBO+eATXEm01HcFgoemHv58P4DBWhYEGGan58v4KGSJ+zT5ywz5NbMVYbglM2NV/UJqrvm+NJ/YFfvNEd3X1AOooAAAAASUVORK5CYII=" className="h-10 w-10"/>        </>
+           <img src="https://avatars.githubusercontent.com/u/103283236?v=4" className="h-10 w-10"/>        </>
     )
 }
 const CSS = ({ width = 35, height = 45 }) => {
