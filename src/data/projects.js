@@ -102,7 +102,7 @@ const projects = [
   },
    {
     img: Dashboard,
-    name: "Simon Game",
+    name: "Stock market Dashboard",
     demo: "https://live-report-builder.vercel.app/",
     code: "https://github.com/Anshika31sharma/LiveReportBuilder",
     description:
