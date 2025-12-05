@@ -16,7 +16,7 @@ const contactInfo = [
     {
         id: 3,
         name: "Instagram",
-        link: "https://www.instagram.com/silent_eyes_31_10/",
+        link: "https://www.instagram.com/anshika_31sharma/",
         icon: <Instagram />,
     },
     {

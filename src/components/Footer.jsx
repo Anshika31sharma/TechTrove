@@ -1,6 +1,5 @@
 import React from 'react'
-import { GMail, Map, CopyRight, ArrowRightLong } from './Icons'
-import { Link } from 'react-scroll'
+import { GMail, Map, CopyRight } from './Icons'
 import contactInfo from '../data/contactInfo'
 const Footer = () => {
     const year = new Date().getFullYear().toString()

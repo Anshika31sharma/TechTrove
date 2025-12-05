@@ -3,8 +3,19 @@ import Roorkee from "../assets/Projects/Ropar.jpeg";
 import Ropar from "../assets/Projects/Roorkee.jpeg";
 import NF from "../assets/Favicons/NF.jpg";
 import Nano from "../assets/Favicons/nano.jpg"
+import zigment from "../assets/Favicons/zigment.png"
 const certificates = [
-  
+  {
+    title: "Front End Developer-I",
+    subtitle: "Zigment",
+    img: zigment,
+    code: "https://drive.google.com/file/d/1a0RtpjF2sHoIcQtDccaJzPmBiwyEu89z/view?usp=sharing",
+    style: {
+      shadow: "shadow-[#763145]",
+      cover: "from-[#763145]",
+      display: "hidden",
+    },
+  },
   {
     title: "Software Engineer",
     subtitle: "Nanoheal",
@@ -22,8 +33,8 @@ const certificates = [
     img: NF,
     code: "https://drive.google.com/file/d/181bpLkujXXUco5jvr3qRUePFulCP7gm6/view?usp=sharing",
     style: {
-      shadow: "shadow-[#FB923C]",
-      cover: "from-[#FB923C]",
+      shadow: "shadow-[#F8FAFC]",
+      cover: "from-[#F8FAFC]",
       display: "hidden",
     },
   },
@@ -33,8 +44,8 @@ const certificates = [
     img: OCPL,
     code: "https://drive.google.com/file/d/1vQBhqx8wgYTliZ6aHzHz2h_OJj-tU6wV/view?usp=sharing",
     style: {
-      shadow: "shadow-[#F8FAFC]",
-      cover: "from-[#F8FAFC]",
+      shadow: "shadow-[#763145]",
+      cover: "from-[#763145]",
       display: "hidden",
     },
   },
@@ -55,8 +66,8 @@ const certificates = [
     img: Ropar,
     code: "https://drive.google.com/file/d/1yk5HFqgEdzrOlpfIQ4An-n1eCS5esOZD/view?usp=sharing",
     style: {
-      shadow: "shadow-[#763145]",
-      cover: "from-[#763145]",
+      shadow: "shadow-[#F8FAFC]",
+      cover: "from-[#F8FAFC]",
       display: "hidden",
     },
   }];
